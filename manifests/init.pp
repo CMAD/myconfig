@@ -1,3 +1,3 @@
 
 include ssd
-
+include kubuntu
