@@ -1,8 +1,11 @@
 class kubuntu {
 
   package { [
+    "language-pack-kde-es",
     "kubuntu-restricted-addons", 
-    "kubuntu-restricted-extras",]:
+    "kubuntu-restricted-extras",
+    "konversation",
+    "yakuake",]:
     ensure => latest,
   }
 
