@@ -5,7 +5,8 @@ class kubuntu {
     "kubuntu-restricted-addons", 
     "kubuntu-restricted-extras",
     "konversation",
-    "yakuake",]:
+    "yakuake",
+    "quicksynergy",]:
     ensure => latest,
   }
 
